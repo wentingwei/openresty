@@ -1,3 +1,0 @@
-2017/04/09 03:29:24 [emerg] 6836#366489: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2017/04/09 03:30:02 [alert] 6840#366586: lua_code_cache is off; this will hurt performance in /Users/wentingwei/Develop/openresty/conf/nginx.conf:16
-2017/04/09 03:30:26 [error] 6845#366683: *1 open() "/Users/wentingwei/Develop/openresty/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/api/add?a=1&b=2"
