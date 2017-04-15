@@ -1,6 +1,5 @@
 local _M = {}
 function _M.is_number( ... )
-	-- body
 	local arg = {...}
 	local num
 	for _,v in ipairs(arg) do

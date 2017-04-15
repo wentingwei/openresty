@@ -35,6 +35,9 @@ nginx -s reload
 4,查看nginx命令
 ps -ef | grep nginx
 
+--
+5，不要在 Lua 的 table 中使用 nil 值，如果一个元素要删除，直接 remove，不要用 nil 去代替
+
 ---
 参考：
 https://redis.io/
